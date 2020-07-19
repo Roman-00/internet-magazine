@@ -124,4 +124,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
   slider();
   /*Конец Слайдера */
+
+  /* Инициализация  Swiper.js */
+  const mySwiper = new Swiper('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    spaceBetween: 0,
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    breakpoints: {
+      620: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+    }
+  });
+  /*Инициализация  Swiper.js */
 });

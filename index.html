@@ -6,6 +6,9 @@
   <title>Mol</title>
   <!-- Подключение файла с шрифтом fonts.css -->
   <link rel="stylesheet" href="css/fonts.css">
+  <!-- Подключение стилей Swiper.js -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <!-- Подключение файла reset.css для сброса стилей -->
   <link rel="stylesheet" href="css/reset.css">
   <!-- Подключение главного файла со стилями-->
@@ -309,11 +312,658 @@
      </div>
     </section>
     <!-- /#hero.hero -->
+
+    <section class="news" id="news">
+      <div class="container">
+        <h2 class="title section__title news__title">
+          Новинки
+        </h2>
+        <!-- /.title section__title -->
+        <div class="news__content">
+          <!-- Slider main container -->
+          <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="card card-rd">
+                    <div class="card__wrapper">
+                      <div class="card__content">
+                        <div class="card__content-img-block">
+                          <img src="img/bonduel.jpg" alt="Бондюель" class="card__content-img">
+                          <div class="card__block-content">
+                            <span class="card__block-content-text">
+                              Новинка
+                            </span> 
+                            <!-- /.card__block-content-text -->
+                            <span class="card__block-content-desc">
+                              -20%
+                            </span> 
+                            <!-- /.card__block-content-text -->
+                          </div>
+                          <!-- /.card__block-content -->
+                        </div>
+                        <!-- /.card__content-img-block -->
+                        <h3 class="card__content-text">
+                          Кукуруза консервированная "Bonduelle" 425мл 
+                        </h3>
+                        <!-- /.card__content-text -->
+                        <span class="card__content-old-price">
+                          600 тг. / шт
+                        </span> 
+                        <!-- /.card__content-old-price -->
+                        <span class="card__content-price">
+                          <span class="card__content-price-b">487</span>  тг. / шт.
+                        </span> 
+                        <!-- /.card__content-price -->
+                        <div class="card__content-cart">
+                          <div class="food-counter">
+                            <button class="counter-button">-</button>
+                            <span class="counter">12</span>
+                            <button class="counter-button">+</button>
+                          </div>
+                          <button class="card__content-btn">
+                            Купить
+                          </button> 
+                          <!-- /.card__content-btn -->
+                        </div>
+                        <!-- /.card__content-cart -->
+                        <div class="card__content-nav">
+                          <div class="card__content-compair">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/compair.png" alt="Сравнить" class="card__content-compair-img">
+                              <span class="card__content-compair-text">
+                                Сравнить
+                              </span> 
+                              <!-- /.card__content-compair-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-compair -->
+                          <div class="card__content-favorites">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/stars.png" alt="В избранное" class="card__content-favorites-img">
+                              <span class="card__content-favorites-text">
+                                В избранное
+                              </span> 
+                              <!-- /.card__content-favorites-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-favorites -->
+                        </div>
+                        <!-- /.favorite -->
+                      </div>
+                      <!-- /.card__content -->
+                    </div>
+                    <!-- /.card__wrapper -->
+                  </div>
+                  <!-- /.card -->
+
+                </div>
+                <!-- Первая карточка товара -->
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card__wrapper">
+                      <div class="card__content">
+                        <div class="card__content-img-block">
+                          <img src="img/golen.jpg" alt="Голени" class="card__content-img">
+                          <div class="card__block-content">
+                            <span class="card__block-content-text">
+                              Новинка
+                            </span> 
+                            <!-- /.card__block-content-text -->
+                          </div>
+                          <!-- /.card__block-content -->
+                        </div>
+                        <!-- /.card__content-img-block -->
+                        <h3 class="card__content-text">
+                          Голень индейки "Дамдi Ет" замороженная в вакууме 
+                        </h3>
+                        <!-- /.card__content-text -->
+                        <span class="card__content-price card__content-price-active">
+                          <span class="card__content-price-b">1065</span> тг./кг.
+                        </span> 
+                        <!-- /.card__content-price -->
+                        <div class="card__content-cart">
+                          <button class="card__content-button-active">
+                            <img src="img/cart-active.png" alt="Cart" class="card__content-button-active-img">
+                            <span class="card__content-button-active-text">
+                              в корзине: <span class="t-s-bold">12 кг</span>
+                            </span> 
+                            <!-- /.card__content-button-active-text -->
+                            <img src="img/close.png" alt="Отменить" class="card__content-button-active-close">
+                          </button> 
+                          <!-- /.card__content-button-active -->
+                        </div>
+                        <!-- /.card__content-cart -->
+                        <div class="card__content-nav">
+                          <div class="card__content-compair">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/compair-active.png" alt="Сравнить" class="card__content-compair-img">
+                              <span class="card__content-compair-text">
+                                В сравнении
+                              </span> 
+                              <!-- /.card__content-compair-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-compair -->
+                          <div class="card__content-favorites">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/stars-active.png" alt="В избранное" class="card__content-favorites-img">
+                              <span class="card__content-favorites-text">
+                                В избранном
+                              </span> 
+                              <!-- /.card__content-favorites-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-favorites -->
+                        </div>
+                        <!-- /.favorite -->
+                      </div>
+                      <!-- /.card__content -->
+                    </div>
+                    <!-- /.card__wrapper -->
+                  </div>
+                  <!-- /.card -->
+
+                </div>
+                <!-- Вторая карточка товара -->
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card__wrapper">
+                      <div class="card__content">
+                        <div class="card__content-img-block">
+                          <img src="img/kolbasa.jpg" alt="Колбаса" class="card__content-img">
+                          <div class="card__block-content">
+                            <span class="card__block-content-text">
+                              Новинка
+                            </span> 
+                            <!-- /.card__block-content-text -->
+                          </div>
+                          <!-- /.card__block-content -->
+                        </div>
+                        <!-- /.card__content-img-block -->
+                        <h3 class="card__content-text">
+                         Колбаса варёно-копчёная "Дамдi Ет" Премьерская в 
+                        </h3>
+                        <!-- /.card__content-text -->
+                        <span class="card__content-price card__content-price-active">
+                          <span class="card__content-price-b">5187</span> тг./кг.
+                        </span> 
+                        <!-- /.card__content-price -->
+                        <div class="card__content-cart">
+                          <button class="card__content-button-active">
+                            <img src="img/cart-active.png" alt="Cart" class="card__content-button-active-img">
+                            <span class="card__content-button-active-text">
+                              в корзине: <span class="t-s-bold">12 кг</span>
+                            </span> 
+                            <!-- /.card__content-button-active-text -->
+                            <img src="img/close.png" alt="Отменить" class="card__content-button-active-close">
+                          </button> 
+                          <!-- /.card__content-button-active -->
+                        </div>
+                        <!-- /.card__content-cart -->
+                        <div class="card__content-nav">
+                          <div class="card__content-compair">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/compair.png" alt="Сравнить" class="card__content-compair-img">
+                              <span class="card__content-compair-text">
+                                Сравнить
+                              </span> 
+                              <!-- /.card__content-compair-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-compair -->
+                          <div class="card__content-favorites">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/stars.png" alt="В избранное" class="card__content-favorites-img">
+                              <span class="card__content-favorites-text">
+                                В избранное
+                              </span> 
+                              <!-- /.card__content-favorites-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-favorites -->
+                        </div>
+                        <!-- /.favorite -->
+                      </div>
+                      <!-- /.card__content -->
+                    </div>
+                    <!-- /.card__wrapper -->
+                  </div>
+                  <!-- /.card -->
+
+                </div>
+                <!-- Третья карточка товара -->
+                <div class="swiper-slide">
+                  <div class="card card-rd-r">
+                    <div class="card__wrapper">
+                      <div class="card__content">
+                        <div class="card__content-img-block">
+                          <img src="img/ball.jpg" alt="Мед" class="card__content-img">
+                          <div class="card__block-content">
+                            <span class="card__block-content-text">
+                              Новинка
+                            </span> 
+                            <!-- /.card__block-content-text -->
+                          </div>
+                          <!-- /.card__block-content -->
+                        </div>
+                        <!-- /.card__content-img-block -->
+                        <h3 class="card__content-text">
+                          Мед натуральный с соком грейпфрута 
+                        </h3>
+                        <!-- /.card__content-text -->
+                        <span class="card__content-price card__content-price-active">
+                          <span class="card__content-price-b">1260</span> тг./кг.
+                        </span> 
+                        <!-- /.card__content-price -->
+                        <div class="card__content-cart">
+                          <div class="food-counter">
+                            <button class="counter-button">-</button>
+                            <span class="counter">12</span>
+                            <button class="counter-button">+</button>
+                          </div>
+                          <button class="card__content-btn">
+                            Купить
+                          </button> 
+                          <!-- /.card__content-btn -->
+                        </div>
+                        <!-- /.card__content-cart -->
+                        <div class="card__content-nav">
+                          <div class="card__content-compair">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/compair.png" alt="Сравнить" class="card__content-compair-img">
+                              <span class="card__content-compair-text">
+                                Сравнить
+                              </span> 
+                              <!-- /.card__content-compair-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-compair -->
+                          <div class="card__content-favorites">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/stars.png" alt="В избранное" class="card__content-favorites-img">
+                              <span class="card__content-favorites-text">
+                                В избранное
+                              </span> 
+                              <!-- /.card__content-favorites-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-favorites -->
+                        </div>
+                        <!-- /.favorite -->
+                      </div>
+                      <!-- /.card__content -->
+                    </div>
+                    <!-- /.card__wrapper -->
+                  </div>
+                  <!-- /.card -->
+
+                </div>
+                <!-- Четвертая карточка товара -->
+            </div>
+          </div>
+        </div>
+        <!-- /.news__content -->
+        <div class="news__card-content">
+          <div class="news__card-w-block">
+            <div class="card__w-content">
+              <a href="#" class="card__w-content-link">
+                <img src="img/heinz.jpg" alt="Томат" class="car__w-images">
+                <div class="card__w-overlay">
+                  <span class="card__w-overlay-text">
+                    Томатный кетчуп Heinz
+                  </span>
+                </div>
+                <!-- /.news__card-w-overlay -->
+              </a>
+            </div>
+            <!-- /.news__card-w-content -->
+            <div class="card__w-content">
+              <a href="#" class="card__w-content-link">
+                <img src="img/provonsal.jpg" alt="Майонез классический Провансаль" class="car__w-images">
+                <div class="card__w-overlay">
+                  <span class="card__w-overlay-text">
+                    Майонез классический Провансаль
+                  </span>
+                </div>
+                <!-- /.news__card-w-overlay -->
+              </a>
+            </div>
+            <!-- /.news__card-w-content -->
+          </div>
+          <!-- /.news__card-w-block -->
+          <div class="news__card-w-block">
+            <div class="card__w-content">
+              <a href="#" class="card__w-content-link">
+                <img src="img/tassay.jpg" alt="Газированная вода Tassay" class="car__w-images">
+                <div class="card__w-overlay">
+                  <span class="card__w-overlay-text">
+                    Газированная вода Tassay
+                  </span>
+                </div>
+                <!-- /.news__card-w-overlay -->
+              </a>
+            </div>
+            <!-- /.news__card-w-content -->
+            <div class="card__w-content card__w-content-m">
+              <a href="#" class="card__w-content-link">
+                <img src="img/fanta.jpg" alt="Фанта Ананас" class="car__w-images">
+                <div class="card__w-overlay">
+                  <span class="card__w-overlay-text">
+                    Фанта Ананас
+                  </span>
+                </div>
+                <!-- /.news__card-w-overlay -->
+              </a>
+            </div>
+            <!-- /.news__card-w-content -->
+          </div>
+          <!-- /.news__card-w-block -->
+        </div>
+        <!-- /.news__card-content -->
+      </div>
+    </section>
+    <!-- /#news.news -->
+
+    <section class="discount" id="discount">
+      <div class="container">
+        <h2 class="title section__title news__title">
+          Товары со скидкой
+        </h2>
+        <!-- /.title section__title -->
+        <div class="news__content">
+          <!-- Slider main container -->
+          <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="card card-rd">
+                    <div class="card__wrapper">
+                      <div class="card__content">
+                        <div class="card__content-img-block">
+                          <img src="img/zeva.jpg" alt="Влажная туалетная бумага "Zewa" Pure" class="card__content-img">
+                          <div class="card__block-content">
+                            <span class="card__block-content-text">
+                              -20%
+                            </span> 
+                            <!-- /.card__block-content-text -->
+                          </div>
+                          <!-- /.card__block-content -->
+                        </div>
+                        <!-- /.card__content-img-block -->
+                        <h3 class="card__content-text">
+                          Влажная туалетная бумага "Zewa" Pure
+                        </h3>
+                        <!-- /.card__content-text -->
+                        <span class="card__content-old-price">
+                          830 тг. / шт
+                        </span> 
+                        <!-- /.card__content-old-price -->
+                        <span class="card__content-price">
+                          <span class="card__content-price-b">784</span>  тг. / шт.
+                        </span> 
+                        <!-- /.card__content-price -->
+                        <div class="card__content-cart">
+                          <div class="food-counter">
+                            <button class="counter-button">-</button>
+                            <span class="counter">12</span>
+                            <button class="counter-button">+</button>
+                          </div>
+                          <button class="card__content-btn">
+                            Купить
+                          </button> 
+                          <!-- /.card__content-btn -->
+                        </div>
+                        <!-- /.card__content-cart -->
+                        <div class="card__content-nav">
+                          <div class="card__content-compair">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/compair.png" alt="Сравнить" class="card__content-compair-img">
+                              <span class="card__content-compair-text">
+                                Сравнить
+                              </span> 
+                              <!-- /.card__content-compair-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-compair -->
+                          <div class="card__content-favorites">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/stars.png" alt="В избранное" class="card__content-favorites-img">
+                              <span class="card__content-favorites-text">
+                                В избранное
+                              </span> 
+                              <!-- /.card__content-favorites-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-favorites -->
+                        </div>
+                        <!-- /.favorite -->
+                      </div>
+                      <!-- /.card__content -->
+                    </div>
+                    <!-- /.card__wrapper -->
+                  </div>
+                  <!-- /.card -->
+
+                </div>
+                <!-- Первая карточка товара -->
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card__wrapper">
+                      <div class="card__content">
+                        <div class="card__content-img-block">
+                          <img src="img/fluer-alpinel.jpg" alt="Fleur Alpine" class="card__content-img">
+                          <div class="card__block-content">
+                            <span class="card__block-content-text">
+                              -20%
+                            </span> 
+                            <!-- /.card__block-content-text -->
+                          </div>
+                          <!-- /.card__block-content -->
+                        </div>
+                        <!-- /.card__content-img-block -->
+                        <h3 class="card__content-text">
+                          Пюре "Fleur Alpine" Organic Яблоко с 4 месяцев, 90гр 
+                        </h3>
+                        <!-- /.card__content-text -->
+                        <span class="card__content-price card__content-price-active">
+                          <span class="card__content-price-b">438</span> тг./шт.
+                        </span> 
+                        <!-- /.card__content-price -->
+                        <div class="card__content-cart">
+                          <button class="card__content-button-active">
+                            <img src="img/cart-active.png" alt="Cart" class="card__content-button-active-img">
+                            <span class="card__content-button-active-text">
+                              в корзине: <span class="t-s-bold">12 кг</span>
+                            </span> 
+                            <!-- /.card__content-button-active-text -->
+                            <img src="img/close.png" alt="Отменить" class="card__content-button-active-close">
+                          </button> 
+                          <!-- /.card__content-button-active -->
+                        </div>
+                        <!-- /.card__content-cart -->
+                        <div class="card__content-nav">
+                          <div class="card__content-compair">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/compair-active.png" alt="Сравнить" class="card__content-compair-img">
+                              <span class="card__content-compair-text">
+                                В сравнении
+                              </span> 
+                              <!-- /.card__content-compair-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-compair -->
+                          <div class="card__content-favorites">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/stars-active.png" alt="В избранное" class="card__content-favorites-img">
+                              <span class="card__content-favorites-text">
+                                В избранном
+                              </span> 
+                              <!-- /.card__content-favorites-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-favorites -->
+                        </div>
+                        <!-- /.favorite -->
+                      </div>
+                      <!-- /.card__content -->
+                    </div>
+                    <!-- /.card__wrapper -->
+                  </div>
+                  <!-- /.card -->
+
+                </div>
+                <!-- Вторая карточка товара -->
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card__wrapper">
+                      <div class="card__content">
+                        <div class="card__content-img-block">
+                          <img src="img/pedigri.jpg" alt="Pedigree" class="card__content-img">
+                          <div class="card__block-content">
+                            <span class="card__block-content-text">
+                              -20%
+                            </span> 
+                            <!-- /.card__block-content-text -->
+                          </div>
+                          <!-- /.card__block-content -->
+                        </div>
+                        <!-- /.card__content-img-block -->
+                        <h3 class="card__content-text">
+                          Корм "Pedigree" Для Взрослых Собак Говядина
+                        </h3>
+                        <!-- /.card__content-text -->
+                        <span class="card__content-price card__content-price-active">
+                          <span class="card__content-price-b">115</span> тг./шт.
+                        </span> 
+                        <!-- /.card__content-price -->
+                        <div class="card__content-cart">
+                          <button class="card__content-button-active">
+                            <img src="img/cart-active.png" alt="Cart" class="card__content-button-active-img">
+                            <span class="card__content-button-active-text">
+                              в корзине: <span class="t-s-bold">12 кг</span>
+                            </span> 
+                            <!-- /.card__content-button-active-text -->
+                            <img src="img/close.png" alt="Отменить" class="card__content-button-active-close">
+                          </button> 
+                          <!-- /.card__content-button-active -->
+                        </div>
+                        <!-- /.card__content-cart -->
+                        <div class="card__content-nav">
+                          <div class="card__content-compair">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/compair.png" alt="Сравнить" class="card__content-compair-img">
+                              <span class="card__content-compair-text">
+                                Сравнить
+                              </span> 
+                              <!-- /.card__content-compair-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-compair -->
+                          <div class="card__content-favorites">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/stars.png" alt="В избранное" class="card__content-favorites-img">
+                              <span class="card__content-favorites-text">
+                                В избранное
+                              </span> 
+                              <!-- /.card__content-favorites-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-favorites -->
+                        </div>
+                        <!-- /.favorite -->
+                      </div>
+                      <!-- /.card__content -->
+                    </div>
+                    <!-- /.card__wrapper -->
+                  </div>
+                  <!-- /.card -->
+
+                </div>
+                <!-- Третья карточка товара -->
+                <div class="swiper-slide">
+                  <div class="card card-rd-r">
+                    <div class="card__wrapper">
+                      <div class="card__content">
+                        <div class="card__content-img-block">
+                          <img src="img/opyata.jpg" alt="Грибы Вешенки" class="card__content-img">
+                          <div class="card__block-content">
+                            <span class="card__block-content-text">
+                              -20%
+                            </span> 
+                            <!-- /.card__block-content-text -->
+                          </div>
+                          <!-- /.card__block-content -->
+                        </div>
+                        <!-- /.card__content-img-block -->
+                        <h3 class="card__content-text">
+                          Грибы Вешенки<br><br>
+                        </h3>
+                        <!-- /.card__content-text -->
+                        <span class="card__content-price card__content-price-active">
+                          <span class="card__content-price-b">1 180</span> тг./шт.
+                        </span> 
+                        <!-- /.card__content-price -->
+                        <div class="card__content-cart">
+                          <div class="food-counter">
+                            <button class="counter-button">-</button>
+                            <span class="counter">12</span>
+                            <button class="counter-button">+</button>
+                          </div>
+                          <button class="card__content-btn">
+                            Купить
+                          </button> 
+                          <!-- /.card__content-btn -->
+                        </div>
+                        <!-- /.card__content-cart -->
+                        <div class="card__content-nav">
+                          <div class="card__content-compair">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/compair.png" alt="Сравнить" class="card__content-compair-img">
+                              <span class="card__content-compair-text">
+                                Сравнить
+                              </span> 
+                              <!-- /.card__content-compair-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-compair -->
+                          <div class="card__content-favorites">
+                            <a href="#" class="card__content-compair-link">
+                              <img src="img/stars.png" alt="В избранное" class="card__content-favorites-img">
+                              <span class="card__content-favorites-text">
+                                В избранное
+                              </span> 
+                              <!-- /.card__content-favorites-text -->
+                            </a>
+                          </div>
+                          <!-- /.card__content-favorites -->
+                        </div>
+                        <!-- /.favorite -->
+                      </div>
+                      <!-- /.card__content -->
+                    </div>
+                    <!-- /.card__wrapper -->
+                  </div>
+                  <!-- /.card -->
+
+                </div>
+                <!-- Четвертая карточка товара -->
+            </div>
+          </div>
+        </div>
+        <!-- /.news__content -->
+      </div>
+    </section>
+    <!-- /#discount.discount -->
   </main>
   
 
   <!-- Подключение библиотеки Jquery -->
   <script src="js/jquery-3.5.1.min.js"></script>
+  <!-- Подключение слайдера Swiper.js -->
+  <script src="js/swiper.min.js"></script>
   <!-- Подключения главного файла со скриптами -->
   <script src="js/main.js"></script>
 </body>
