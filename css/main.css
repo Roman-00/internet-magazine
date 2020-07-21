@@ -289,10 +289,19 @@ li {
   color: #334858;
 }
 
-.accordion__content-link:hover {
+.accordion__content-link:hover .arrov-svg {
   color: #0879c9;
+  fill: #0879c9;
   background-color: #eff3f6;
   border-top: 1px soilid transparent;
+}
+
+.accordion__content-link:hover {
+  background-color: #eff3f6;
+}
+
+.accordion__content-text:hover {
+  color: #0879c9;
 }
 
 .accordion__content-text {
@@ -1168,6 +1177,14 @@ li {
   color: #ffffff;
 }
 
+.aci-c {
+  fill: #0879c9;
+}
+
+.arrov-svg {
+  fill: #b7cbd1;
+}
+
 /* Медиа запросы  Адаптив*/
 
 @media screen and (max-width: 1140px) {
@@ -1502,7 +1519,12 @@ li {
 
   .accordion {
     color: #ffffff;
+    border-radius: 5px;
     background-color: #0879c9;
+  }
+
+  .aci-c {
+    fill: #ffffff;
   }
 
   .hero__advantages-block {
