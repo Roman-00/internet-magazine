@@ -117,6 +117,10 @@ li {
   display: none;
 }
 
+.header__phone-block {
+  margin-left: 69px;
+}
+
 .header__top-phone-link {
   font-size: 18px;
   font-weight: 600;
@@ -1394,8 +1398,24 @@ li {
 }
 
 @media screen and (max-width: 775px) {
+  .hero {
+    padding-top: 200px;
+  }
+
   .hero__serch {
-    width: 340px;
+    width: 325px;
+  }
+
+  .hero__search-button {
+    width: 25%;
+  }
+
+  .header__menu-nav {
+    margin: auto;
+  }
+
+  .menu__nav-item {
+    margin-right: 20px;
   }
 
   .portfolio-content {
@@ -1462,6 +1482,7 @@ li {
   .footer__search {
     margin-left: 10px;
   }
+
 }
 
 @media screen and (max-width: 640px) {
